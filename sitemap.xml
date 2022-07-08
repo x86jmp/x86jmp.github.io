@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://apathetic.github.io/blog/blog/</loc>
-    <lastmod>2022-07-08T16:35:01+02:00</lastmod>
-  </url><url>
     <loc>https://apathetic.github.io/blog/</loc>
     <lastmod>2022-07-08T16:35:01+02:00</lastmod>
   </url><url>
-    <loc>https://apathetic.github.io/blog/test/</loc>
+    <loc>https://apathetic.github.io/</loc>
     <lastmod>2022-07-08T16:35:01+02:00</lastmod>
   </url><url>
-    <loc>https://apathetic.github.io/blog/my-new-blogs/</loc>
+    <loc>https://apathetic.github.io/test/</loc>
+    <lastmod>2022-07-08T16:35:01+02:00</lastmod>
+  </url><url>
+    <loc>https://apathetic.github.io/my-new-blogs/</loc>
     <lastmod>2022-07-08T16:27:18+02:00</lastmod>
   </url><url>
-    <loc>https://apathetic.github.io/blog/my-new-blog/</loc>
+    <loc>https://apathetic.github.io/my-new-blog/</loc>
     <lastmod>2022-07-08T16:26:29+02:00</lastmod>
   </url><url>
-    <loc>https://apathetic.github.io/blog/my-new-post/</loc>
+    <loc>https://apathetic.github.io/my-new-post/</loc>
     <lastmod>2022-07-08T16:09:13+02:00</lastmod>
   </url>
 </urlset>
