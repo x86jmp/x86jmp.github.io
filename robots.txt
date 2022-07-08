@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: https://apathetic.github.io/sitemap.xml
+Sitemap: https://apathetic.github.io/blog/sitemap.xml
