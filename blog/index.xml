@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo ʕ•ᴥ•ʔ Bear Blogs</title>
-    <link>https://apathetic.github.io/</link>
-    <description>Recent content on Hugo ʕ•ᴥ•ʔ Bear Blogs</description>
+    <title>Blogs on Hugo ʕ•ᴥ•ʔ Bear Blogs</title>
+    <link>https://apathetic.github.io/blog/</link>
+    <description>Recent content in Blogs on Hugo ʕ•ᴥ•ʔ Bear Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2020, Jane Doe.</copyright>
-    <lastBuildDate>Fri, 08 Jul 2022 16:45:35 +0200</lastBuildDate><atom:link href="https://apathetic.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Jul 2022 16:45:35 +0200</lastBuildDate><atom:link href="https://apathetic.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My New Post</title>
       <link>https://apathetic.github.io/my-new-post/</link>
