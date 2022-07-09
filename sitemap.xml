@@ -3,23 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://xorjnz.github.io/</loc>
-    <lastmod>2022-07-08T17:03:20+02:00</lastmod>
     <priority>0</priority>
   </url><url>
     <loc>https://xorjnz.github.io/blog/</loc>
-    <lastmod>2022-07-08T17:03:20+02:00</lastmod>
-  </url><url>
-    <loc>https://xorjnz.github.io/new-post/</loc>
-    <lastmod>2022-07-08T17:03:20+02:00</lastmod>
-  </url><url>
-    <loc>https://xorjnz.github.io/my-new-post/</loc>
-    <lastmod>2022-07-08T16:56:24+02:00</lastmod>
-  </url><url>
-    <loc>https://xorjnz.github.io/markdown-syntax-guide/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xorjnz.github.io/bear/</loc>
-  </url><url>
-    <loc>https://xorjnz.github.io/hugo/</loc>
   </url>
 </urlset>
