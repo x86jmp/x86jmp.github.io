@@ -34,17 +34,20 @@
 
   <link rel="alternate" type="application/rss+xml" href="https://xorjnz.github.io/blog/index.xml" title="Hugo ʕ•ᴥ•ʔ Bear Blog" />
   <style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
   body {
     font-family: Verdana, sans-serif;
     margin: auto;
     padding: 20px;
     max-width: 720px;
     text-align: left;
-    background-color: #fff;
+    background-color: rgb(233, 233, 233);
     word-wrap: break-word;
     overflow-wrap: break-word;
     line-height: 1.5;
-    color: #444;
+    color: #000000;
   }
 
   h1,
@@ -53,8 +56,12 @@
   h4,
   h5,
   h6,
-  strong,
   b {
+    font-family: Recursive;
+    color: #222;
+  }
+
+  strong {
     color: #222;
   }
 
@@ -73,6 +80,7 @@
   }
 
   nav a {
+    font-family: 'JetBrains Mono';
     margin-right: 10px;
   }
 
@@ -162,7 +170,7 @@
 
   @media (prefers-color-scheme: dark) {
     body {
-      background-color: #333;
+      background-color: #01242e;
       color: #ddd;
     }
 
