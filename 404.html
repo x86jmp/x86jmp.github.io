@@ -49,6 +49,10 @@
     color: #000000;
   }
 
+  p {
+    font-size: 17px;
+  }
+
   h1,
   h2,
   h3,
@@ -101,7 +105,12 @@
   }
 
   img {
+    position: relative;
+    display: block;
+    margin-bottom: 0;
+    margin: 1.0rem auto;
     max-width: 100%;
+    height: auto;
   }
 
   code {
@@ -114,6 +123,11 @@
     display: block;
     padding: 20px;
     white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  .caption {
+    text-align: center;
     font-size: 14px;
   }
 
@@ -167,8 +181,7 @@
     color: #8b6fcb;
   }
 
-  @media (prefers-color-scheme: dark) {
-    body {
+  body {
       background-color: #01242e;
       color: #ddd;
     }
@@ -209,7 +222,8 @@
     .helptext {
       color: #aaa;
     }
-  }
+
+   
 
 </style>
 
