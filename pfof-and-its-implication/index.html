@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://xorjnz.github.io/images/favicon.png" />
+<title>PFOF and It&#39;s Implication | apathetic.bid</title>
+<meta name="title" content="PFOF and It&#39;s Implication" />
+<meta name="description" content="PFOF [ Payment for Order Flow ] is a cost to me. So if you&rsquo;re going to tell me that by regulatory fiat, one of my major items of expense disappears? I&rsquo;m okay with that.
+Hm. That&rsquo;s Ken Griffin, founder of Citadel Securities, one of the largest HFT [ High Frequency Trading ] firms in the world. The largest designated market maker on the NYSE; it&rsquo;s matching engines handling nearly as much trading volume as Nasdaq." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:title" content="PFOF and It&#39;s Implication" />
+<meta property="og:description" content="PFOF [ Payment for Order Flow ] is a cost to me. So if you&rsquo;re going to tell me that by regulatory fiat, one of my major items of expense disappears? I&rsquo;m okay with that.
+Hm. That&rsquo;s Ken Griffin, founder of Citadel Securities, one of the largest HFT [ High Frequency Trading ] firms in the world. The largest designated market maker on the NYSE; it&rsquo;s matching engines handling nearly as much trading volume as Nasdaq." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://xorjnz.github.io/pfof-and-its-implication/" /><meta property="og:image" content="https://xorjnz.github.io/images/share.png"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-09-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-09-01T00:00:00+00:00" /><meta property="og:site_name" content="apathetic.bid" />
+
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://xorjnz.github.io/images/share.png"/>
+
+<meta name="twitter:title" content="PFOF and It&#39;s Implication"/>
+<meta name="twitter:description" content="PFOF [ Payment for Order Flow ] is a cost to me. So if you&rsquo;re going to tell me that by regulatory fiat, one of my major items of expense disappears? I&rsquo;m okay with that.
+Hm. That&rsquo;s Ken Griffin, founder of Citadel Securities, one of the largest HFT [ High Frequency Trading ] firms in the world. The largest designated market maker on the NYSE; it&rsquo;s matching engines handling nearly as much trading volume as Nasdaq."/>
+
+
+
+<meta itemprop="name" content="PFOF and It&#39;s Implication">
+<meta itemprop="description" content="PFOF [ Payment for Order Flow ] is a cost to me. So if you&rsquo;re going to tell me that by regulatory fiat, one of my major items of expense disappears? I&rsquo;m okay with that.
+Hm. That&rsquo;s Ken Griffin, founder of Citadel Securities, one of the largest HFT [ High Frequency Trading ] firms in the world. The largest designated market maker on the NYSE; it&rsquo;s matching engines handling nearly as much trading volume as Nasdaq."><meta itemprop="datePublished" content="2022-09-01T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-09-01T00:00:00+00:00" />
+<meta itemprop="wordCount" content="7953"><meta itemprop="image" content="https://xorjnz.github.io/images/share.png"/>
+<meta itemprop="keywords" content="" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+  body {
+    font-family: Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: rgb(243, 243, 243);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #000000;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  b {
+    font-family: Recursive;
+    color: #222;
+  }
+
+  strong {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title h2 {
+    font-weight: 100 !important;
+  }
+
+  nav a {
+    font-family: 'JetBrains Mono';
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    position: relative;
+    display: block;
+    margin-bottom: 0;
+    margin: 1.0rem auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  .caption {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  body {
+      background-color: #01242e;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+
+   
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>apathetic.bid</h2>
+</a>
+<nav><a href="/">home</a>
+
+
+<a href="/blog">ideas</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>PFOF and It&#39;s Implication</h1>
+<p>
+  <i>
+    <time datetime='2022-09-01' pubdate>
+      2022-09-01
+    </time>
+  </i>
+</p>
+
+<content>
+  <blockquote>
+<p><strong>PFOF</strong> [ Payment for Order Flow ] is a cost to me. So if you&rsquo;re going to tell me that by regulatory fiat, one of my major items of expense disappears? I&rsquo;m okay with that.</p>
+</blockquote>
+<p>Hm. That&rsquo;s Ken Griffin, founder of Citadel Securities, one of the largest <strong>HFT</strong> [ <a href="https://en.wikipedia.org/wiki/High-frequency_trading">High Frequency Trading</a> ] firms in the world. The largest <a href="https://www.nyse.com/publicdocs/nyse/markets/nyse/designated_market_makers.pdf">designated market maker</a> on the NYSE; it&rsquo;s matching engines handling nearly as much trading volume as Nasdaq. The quote above is him speaking at the <a href="https://www.youtube.com/watch?v=7V-a3aoO0Mo">Economic Club of Chicago</a> on PFOF potentially being outlawed.</p>
+<blockquote>
+<p>Ironically it&rsquo;s an expense, right? So in theory our bottom-line would improve. So you may say to yourself; &ldquo;why are [they] doing this?&rdquo;; [we do it] because I think it&rsquo;s the right thing [to do]. I think PFOF has created innovation and enabled a company like Robinhood, which is a client of ours, to offer commission-free trading and to democratize the market.</p>
+</blockquote>
+<p>And that&rsquo;s Doug Cifu <a href="https://www.youtube.com/watch?v=KoN_555cCJQ">on CNBC</a>, CEO &amp; Co-Founder of Virtu Financial; a HFT firm who in March 2014 disclosed that during the five past years the firm had turned a profit 1,277 out of 1,278 days, making markets in 10,000+ securities. Is Doug really telling us that <strong>wholesalers</strong> [ HFT firms providing execution services to brokerages ] have financed a multi-billion dollar industry through PFOF solely out of the goodness of their hearts..? Now i&rsquo;m curious.</p>
+<p><img src="/images/pfofRevenuesByM.png" alt="bla bla"></p>
+<h2 id="reg-nms">reg nms</h2>
+<p>In 2005, <strong>Reg NMS</strong> [ Regulation National Market System ] first came about. It&rsquo;s a set of rules that the SEC passed, supposedly to increase transparency in markets. There&rsquo;s four main components, but we mainly care about two; The Order Protection Rule and the Sub-Penny Rule.</p>
+<p>The Order Protection Rule prohibits <strong>venues</strong> [ an exchange, darkpool, ATS or a wholesaler ] from executing trades at a worse price than what&rsquo;s on the surface possible, it&rsquo;s implemented by sourcing all the best bids and offers from all available trading venues [ except dark pools and some alternative trading systems that may not list quotes ] and then comparing the quotes. The highest bid for 100 shares or more out of them all will come to be called the <strong>NBB</strong> [ National Best Bid ] and the lowest offer for 100 shares or more will be called <strong>NBO</strong> [ National Best Offer ], togheter they are referred to as <strong>NBBO</strong> [ National Best Bid and Offer ]. Trading at a worse price than the NBBO is prohibited, and so venues will not be able to execute trades that don&rsquo;t get the &lsquo;best price&rsquo;, i.e NBBO. Notice the quirk; odd lots, that will say orders of less than 100 shares, do not count towards the NBBO. If there is 50 shares bid at 10.00 and 100 shares bid at 9.95 then the NBB will be quoted at 9.95, and 9.95 would be a totally legal execution; we&rsquo;ll go into depth on this specific issue later in the article.</p>
+<p>Let&rsquo;s take an example of the Order Protection Rule in action; You want to sell 500 shares of Y stock. There&rsquo;s 16 equity exchanges and roughly 50 alternative trading venues in the US, all with different quotes for Y stock. But looking at your brokerage app, you only see one bid and one offer. That bid and offer are the best quotes that could be sourced and streamed to your brokerage by the U.S <strong>SIP</strong> [ Security Information Processor, the computer that calculates the NBBO and streams the data ]. So if we imagine that the NYSE and BATS are the only available venues for trading that specific security, and the NYSE is quoting a bid at 10.00 and BATS is quoting a bid at 10.05 then the NBB will be 10.05, and you will not be able to get an execution at the NYSE.</p>
+<p>The Sub-Penny Rule prohibits exchanges from matching trades in increments less than a <strong>penny</strong> [ 0.01 ]. Trading in increments smaller than a penny will still occur off-exchange in alternative trading venues and dark pools. The NBBO is always quoted in increments of a penny and so it may not actually represent the true best available price; Imagine that on the NYSE the bid is 10.00 while Citadel Securities is bidding 10.001 in their own venue, the SIP will still calculate that the NBB is 10.00 and can be found at the NYSE. So when talking about NBBO as &rsquo;the best price&rsquo;, it&rsquo;s not actually the best price across all venues, it&rsquo;s simply the best price for 100 shares in increments of a penny currently available on <strong>lit venues</strong> [ venues that &lsquo;show&rsquo; their bids and offers ]. Think of the NBBO as an abstraction of a far more complicated reality, perhaps there is no true &lsquo;best price&rsquo;.</p>
+<h2 id="maker-taker">maker-taker</h2>
+<p>If you bid 100 shares for the same price as <strong>NBO</strong> [ National Best Offer ], then you will, in isolation, get routed to where the NBO is quoted and have your order executed against that. This means that you have now <strong>taken</strong> the best available offer, and it&rsquo;s no longer on the market, as you have executed against it. Because &rsquo;taker&rsquo; orders clear the order book and open up the trading venue for volatility, they are usually charged a small <strong>fee</strong>. Taking is also referred to as &lsquo;crossing the spread&rsquo;. When taking you essentially pay the difference between the <strong>NBB</strong> [ National Best Bid ] and NBO–if you buy at the NBO then you can only sell those shares back at the NBB, thus losing the difference–this difference is called the &lsquo;spread&rsquo; and when paying it you are &lsquo;crossing&rsquo; it.</p>
+<p>&lsquo;maker&rsquo; flow is the trade you were executed against in the &rsquo;taker&rsquo; example, a limit order [ or something similar to a limit order ] simply sitting in the order book waiting to be executed against. This order is <strong>making</strong> liquidity, as it&rsquo;s providing depth in the order book. If a big buyer comes in for 100,000 shares and there were very few maker orders the price would spike as the buyer would constantly have to pay more as they have executed against all available liquidity at the initial best offer. Because of &lsquo;maker&rsquo; orders tranquilizing effect on volatility, exchanges see them as quite valuable and usually pay a <strong>rebate</strong> [ &lt; 0.01$/share ] for &lsquo;maker&rsquo; flow–the exchange usually can afford to pay this rebate because of the <strong>taker</strong> fees they employ.</p>
+<p>This fee structure of charging takers and paying makers is called maker-taker and was first established in the Island <strong>ECN</strong> [ Electronic Communication Network, an electronic trading venue ] back in <a href="http://www.fundinguniverse.com/company-histories/the-island-ecn-inc-history/">Joshua Levine&rsquo;s</a> time. Back then, the idea that a venue would <em>pay</em> for taker flow would seem ridiculous. Why would any venue want to promote liquidity taking over liquidity making? You&rsquo;d simply get a thinner book and wider spreads as market makers opt for other venues. This sentiment came to change with time, as some figured out ways to exploit the demand for what was on the surface &lsquo;cheaper&rsquo; trading.</p>
+<p>A classic example is how HFT firms exploited latency and fee-rebate structure differences between traditional exchanges and BATS, founded in 2005 by HFT legend David Cummings as an electronic ECN. BATS was fast, way faster than the NYSE or Nasdaq. This relative speed allowed participants [ with the tech ] to get a preview of the market as orders routed to BATS were executed and relayed in the direct feeds faster than on other exchanges. BATS also paid rebates for taker flow, to ensure that brokers routed taker orders there first. Let&rsquo;s go through an example of how one could&rsquo;ve been exploited by faster participants through this combination of relative speed and maker-taker quirks.</p>
+<p>You&rsquo;re in the market wanting to cross the spread with an offer to sell 1,000 shares of X security at the bid. The <strong>NBBO</strong> [ National Best Bid and Offer, remember? ] is quoted at 10.00 and 10.05 respectively with no market fragmentation–meaning, the market is uniform; the NBBO is quoted across all known venues. You place your order with your broker, and since all exchanges are quoting NBBO, your broker decides to route for it&rsquo;s own benefit. As it happens, BATS is offering to pay your broker $0.0001 for every share that is routed there to <strong>take</strong> [ cross the spread ] and so your order to sell 1,000 shares at NBB is first routed to BATS.</p>
+<p>Before your order arrives and is executed, the order books of NYSE and BATS respectively look like this: [ order sizes omitted for simplicity ]</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">bid [NYSE]</th>
+<th style="text-align:center">offer [NYSE]</th>
+<th style="text-align:center">bid [BATS]</th>
+<th style="text-align:center">offer [BATS]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.15</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.15</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.10</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.10</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.05</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.05</td>
+</tr>
+<tr>
+<td style="text-align:center">10.00</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.00</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">9.95</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">9.95</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">9.90</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">9.90</td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>When your order arrives on BATS it just so happens that there&rsquo;s only 100 shares available at the NBB, thus you and your 1,000 share order stomps through the order book, extinguishing the 100 share bid at 10.00.</p>
+<p>Now that you have taken all the demand at the 10.00 level the order books look like this:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">bid [NYSE]</th>
+<th style="text-align:center">offer [NYSE]</th>
+<th style="text-align:center">bid [BATS]</th>
+<th style="text-align:center">offer [BATS]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.15</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.15</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.10</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.10</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.05</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.05</td>
+</tr>
+<tr>
+<td style="text-align:center">10.00</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">9.95</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">9.95</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">9.90</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">9.90</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">9.85</td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>The NYSE order book is unchanged, while the best bid at BATS is now at 9.95, below the NBB. As BATS cannot execute the rest of your order at the NBB [ executing at a worse price than NBB would be against Reg NMS rules ], they route it forward to other venues as they need to per regulation. In this example, they first route it to the NYSE.</p>
+<p>But when your order arrives at the NYSE, somebody has already been there and taken the demand, the 10.00 bid level is already extinguished and so there&rsquo;s no buyers for the 900 shares you still have left. The order books now look like this, once again uniform:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">bid [NYSE]</th>
+<th style="text-align:center">offer [NYSE]</th>
+<th style="text-align:center">bid [BATS]</th>
+<th style="text-align:center">offer [BATS]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.10</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.10</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.05</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.05</td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.00</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">10.00</td>
+</tr>
+<tr>
+<td style="text-align:center">9.95</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">9.95</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">9.90</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">9.90</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">9.85</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">9.85</td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>Whatever, it&rsquo;s only $45 [ 0.05*900 ], you think to yourself, before you cancel your order and submit a new order to sell the remaining 900 shares at 9.95. This time, your order is once again routed to BATS and this time you get filled–hopefully. But what actually happened?</p>
+<p>When your order arrived at BATS and was executed against the 100 share order–extinguishing the price level–there was a computer likely sitting [ physically ] right beside the BATS <strong>matching engine</strong> [ the computer that is at the core of an electronic trading venue, it matches the orders that are recieved and relays a continous stream of data that describes what is happening on the venue ] that was listening to the data stream of the matching engine. When the computer heard that the trade had been executed it quickly–before you even got news of the execution–sent orders to the other trading venues [ in this case the NYSE ] to sell at NBB [ 10.00 in this case ]. Using proprietary fiber cables or microwave links connected directly to the other venues, thus arriving faster than you. The computer now offers to buy the shares you wanted to sell in the first place, but for 0.05 cheaper at 9.95. You will have to settle and sell the 900 shares for 0.05 less, and so you have missed out on $45 [ 900*0.05=45 ].</p>
+<p>This is a pretty dramatic case. You will rarely if ever suffer such an obvious and large loss due to trading like this, since spreads are seldom this wide and brokers are more aware of this activity now and use their own algorithmic routing systems to counter it. For example; some brokers will split up your order to all different venues and purposely delay the orders, so all orders arrive and execute at the same time. There&rsquo;s even exchanges that themselves are implementing counter measures to trading like this. Nevertheless, I think this trade is an engaging and easily comprehendable example of why speed matters in markets–even if it&rsquo;s just a couple of microseconds–and how participants use rebates and fees to influence on which venues and with which participants trading takes place; which will be the subject of this article.</p>
+<h2 id="a-zero-sum-game">a zero sum game</h2>
+<p>Wholesalers such as Virtu Financial or Citadel Securities and retail brokers like Robinhood all share their favorite argument when it comes to dealing with PFOF critics; retail trading has never been cheaper. This is an absolutely truthful statement, and most recognize this, and so they stop digging. But let&rsquo;s face it; the cost of retail trading does not tell you wheter PFOF in it&rsquo;s current form is optimal for markets at large, and even if it is, it&rsquo;s healthy that people understand what it is and know who is making the money and who is paying. In everything from senate hearings to CNBC interviews the people involved with PFOF have gone to great lengths [ in good or bad faith ] to abstract what PFOF is; when people repeatedly answer questions about how they&rsquo;re making billions by essentially saying &ldquo;don&rsquo;t worry, it&rsquo;s good for you&rdquo; and going out of their way not to give any details, you might get a little curious.</p>
+<p>The naive understanding of PFOF, that firms like Virtu Financial and Citadel Securities would love to tell you all about, goes something like this:</p>
+<p>Two retail customers share brokerages, they both want to trade in the same stock urgently, and so they cross the spread. One is in the market to sell and the other to buy. Traditionally, pre-2000, the traders would&rsquo;ve sent their orders to a brokerage that would charge a commission and send the orders forward to an exchange like the NYSE. The NYSE would charge the brokerage a fee and then execute the orders at NBBO, in this case 10.00 and 10.05 respectively. The two retail customers entertain several trading related costs; The commission they paid to the brokerage, which would cover the cost the brokerage has to pay the NYSE; the spread.</p>
+<script async type="application/javascript" src="https://unpkg.com/mermaid@9.1.7/dist/mermaid.min.js">
+    var config = {
+      startOnLoad:true,
+      theme:'dark',
+      align:'center'
+    };
+    mermaid.initialize(config);
+</script>
+  
+<div class="mermaid">
+    
+%%{init: {'theme':'dark'}}%%
+flowchart LR;
+    A[The Traditional Model] ---t1["taker #1, bid @ 10.05"]-- pays commission -->B[Broker]
+    A[The Traditional Model] ---t2["taker #2, offer @ 10.00"]-- pays commission -->B[Broker]
+    B[Broker] -- pays fee --> C[Exchange]
+    C[Exchange] -- "executes @ NBBO" --> B
+
+</div>
+<p>But nowadays, the brokerage simply sends the orders directly to a wholesaler. This allows the broker to bypass the exchange fees and match their clients orders against eachother at a better price than NBBO, say 0.02 in <strong>price improvement</strong>, leaving 0.01 for the wholesaler in the spread [ the difference between the price you are executed at and NBBO, if NBO is 10.05 and your bid gets filled at 10.03 that 0.02 difference is called price improvement ]. The wholesaler passes 0.005 on to the broker [ as Payment For Order Flow, PFOF ] and keeps 0.005 for themself; everyone, except for the exchange, is happy and well-fed.</p>
+<script async type="application/javascript" src="https://unpkg.com/mermaid@9.1.7/dist/mermaid.min.js">
+    var config = {
+      startOnLoad:true,
+      theme:'dark',
+      align:'center'
+    };
+    mermaid.initialize(config);
+</script>
+  
+<div class="mermaid">
+    
+%%{init: {'theme':'dark'}}%%
+flowchart LR;
+    A[The Naive Model] ---t1["taker #1, bid @ 10.05"]<-- price improvement-->B[Broker]
+    A[The Naive Model] ---t2["taker #2, offer @ 10.00"]<-- price improvement-->B[Broker]
+    B[Broker] -- bypassing exchange --> C[Wholesaler]
+    C[Wholesaler] -- pays rebate --> B
+
+</div>
+<p>To summarize, the naive model is basically this; through the use of technology [ and a substantial increase in odd lot volume ], we can outcompete the old ineffective exchanges and all get rich, or atleast get to trade without paying commissions. This isn&rsquo;t wrong, really; but it does leave out a lot of detail and is an obvious abstraction.</p>
+<h2 id="adverse-selection">adverse selection</h2>
+<p>Market makers are often in legal agreements with exchanges or other venues that force them to provide quotes at NBBO x% of the time for a set of securities, they are also needed to have limit orders [ or similar ] in a set range within NBBO continously. Market makers in these agreements with venues are often called Designated Market Makers, or DMMs. In return for their dedication to providing liquidity, they get special rebates differing depending on the venue.</p>
+<p>Generally market makers won&rsquo;t necessarily know if the orders they are trading against are from informed or uniformed traders; order size, intensity of the flow and activity on other venues may give clues but institutional investors go to great lengths to mask their flow. DMMs would have to trade against flow even if they know that the other party may be better informed than them; this asymmetry of information in trading is known as adverse selection; one party has information that the other doesn&rsquo;t. This works out because the DMM is compensated for taking the other side of the sometimes informed flow by special rebates related to how much liquidity they are adding throughout the trading day.</p>
+<p>Payment For Order Flow is essentially the practice of paying the director of flow [ i.e the brokerage ] to allow you to act as a DMM. Now that might throw you off, since we just discussed why DMMs demand payment to act as DMMs. So what suddenly made flow so valuable, and adverse selection risk so negligible? Well, the source of the flow.</p>
+<p>Payment For Order Flow agreements in the form of a wholesaler paying a broker generally occurs with <strong>retail</strong> brokers. Retail traders [ i.e individual investors ] are statistically significantly less informed than institutional traders, and so acting as a DMM for flow that is compromised mostly by retail traders eliminates adverse selection–or it might even tilt adverse selection in the DMMs favor–while enabling the DMM to reap the benefit of being routed most if not all of the flow.</p>
+<p>And so we have collected the first puzzle piece of the <strong>true</strong> model; adverse selection.</p>
+<div style="text-align: center;">
+    
+<script async type="application/javascript" src="https://unpkg.com/mermaid@9.1.7/dist/mermaid.min.js">
+    var config = {
+      startOnLoad:true,
+      theme:'dark',
+      align:'center'
+    };
+    mermaid.initialize(config);
+</script>
+  
+<div class="mermaid">
+    
+%%{init: {'theme':'dark'}}%%
+flowchart LR;
+    C[Trader] -- order --> A[Broker]
+    A[Broker] -- adverse selection --> B[Wholesaler]
+    B[Wholesaler] -- rebate --> A[Broker]
+
+</div>
+
+</div>
+<h2 id="the-true-nbbo">the true NBBO</h2>
+<p>Venues are obligated to execute orders at NBBO, but one shouldn&rsquo;t take NBBO literally. There is no &rsquo;national best&rsquo; price–there&rsquo;s simply too many variables. The reality is that NBBO might rarely actually be the best price available, the only times it might genuinely be the best price is when your in the market for strictly 100 shares and you&rsquo;re only willing to pay in increments of a penny. I imagine you have rarely found yourself in that situation.</p>
+<p>Wholesalers are often in agreements to provide x % of payment in the form of price improvement to the trader and the rest in rebates to the brokerage. This means that they are obligated to provide price improvement, but less than what they theoretically could provide; their worst price to execute is generally slightly below NBBO–but their best price can be anywhere, really, depending on market conditions. This means that wholesalers have a range of prices that they could theoretically execute an order against while still making a profit–but since wholesalers have a predetermined mandate to provide only x% of price improvement they will rarely execute at the true NBBO if the true NBBO would give more price improvement than what they are mandated to provide. To illustrate this:</p>
+<p>Imagine you&rsquo;re a retail trader using <strong>Robinhood</strong> [ a zero commission retail brokerage ]; you&rsquo;re in the market to sell 50 shares of x stock and on your screen you see the NBB quoted as 100 @ 9.90–even though the order books for the NYSE and a random <strong>ATS</strong> [ Alternative Trading System ] may look like this:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">bid [NYSE]</th>
+<th style="text-align:center">bid [ATS]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">50 @ 9.95</td>
+<td style="text-align:center">100 @ 9.9005</td>
+</tr>
+<tr>
+<td style="text-align:center">100 @ 9.90</td>
+<td style="text-align:center">100 @ 9.90</td>
+</tr>
+<tr>
+<td style="text-align:center">100 @ 9.85</td>
+<td style="text-align:center">100 @ 9.85</td>
+</tr>
+</tbody>
+</table>
+<p>You decide that getting a fill at 9.90 would be ok and you confirm your order. Robinhood routes your order to a wholesaler that is mandated to provide some price improvement to you and some rebate to your broker. As your wholesaler needs to pay your broker and itself, it doesn&rsquo;t give you the <strong>true</strong> NBB, which in this case would be the 50 shares for 9.95 at the NYSE. Instead the wholesaler takes the other side of your trade and executes you at a price that satisfies the agreed upon amount of price improvement and then sells the shares back on the NYSE for 9.95. Since odd lots [ &lt; 100 shares ] don&rsquo;t count towards NBBO, this is perfectly fine, and you actually got a better price than the SIP calculated NBBO.</p>
+<p>This example is once again quite dramatic, but it&rsquo;s a good showcase for the second piece of the true PFOF model; the true NBBO.</p>
+<div style="text-align: center;">
+    
+<script async type="application/javascript" src="https://unpkg.com/mermaid@9.1.7/dist/mermaid.min.js">
+    var config = {
+      startOnLoad:true,
+      theme:'dark',
+      align:'center'
+    };
+    mermaid.initialize(config);
+</script>
+  
+<div class="mermaid">
+    
+%%{init: {'theme':'dark'}}%%
+flowchart LR;
+    C[Trader] -- order --> A[Broker]
+    A[Broker] -- adverse selection --> B[Wholesaler]
+    B[Wholesaler] -- rebate --> A[Broker]
+    B[Wholesaler] -- NBBO execution + price improvement --> C[Trader]
+
+</div>
+
+</div>
+<h2 id="best-execution">best execution</h2>
+<p>In 2016, the retail brokerage Robinhood pivoted to a direct relationship with wholesalers. As part of this process, they began negotiations with several different wholesalers. In these negotiations wholesalers informed Robinhood that they would have to choose between higher PFOF rebates or better execution, in the form of price improvement. One wholesaler told Robinhood directly that generally retail brokerages take a majority of the payment in price improvement, and the rest in rebates–specifically an 80/20 split. Robinhood then went on to negotiate for a 80/20 split, with 80% in rebates and 20% in price improvement, this despite the SEC-enforced mandate to provide &lsquo;best execution&rsquo;. Then in 2017, one of the wholesalers decided to stop paying Robinhood PFOF, as their rates were unusually high, and so Robinhood stopped routing to that wholesaler.²</p>
+<p>The often mentioned &lsquo;best execution&rsquo; mandate is at this point laughable. It&rsquo;s so incredibly vague and rarely enforced that you couldn&rsquo;t possibly make any significant cases of it. Doug Cifu, CEO of Virtu Financial, mentioned that no retail broker that takes PFOF will route based on the amount of payment and this true. What&rsquo;s critical is &rsquo;the amount&rsquo;, yes, they will not route to who pays the most, but they generally won&rsquo;t route to those who don&rsquo;t pay. They will also directly accept worse execution–less price improvement–for bigger rebates, as in Robinhood&rsquo;s case.</p>
+<p>The moral principle of &lsquo;best execution&rsquo; when it comes to PFOF can also be questioned. Researchers have found that different brokerages receieve different amounts of price improvement. This can likely be attributed to the fact that different brokerages have different clients with varying levels of adverse selection risk–Robinhood clients are likely less informed than Interactive Brokers clients. This causes an inherent unfairness in markets where because your broker can be identified by the off-exchange venue, you can be identified and charged less or more depending on how well-informed you might be. PFOF has many quirks to it but it&rsquo;s mostly a way for wholesalers to gain an edge by identifying market participants by their brokerage and then providing different classes of execution depending on the risk of adverse selection.</p>
+<p>If a retail brokerage exclusively routes to, say, three venues, because these three happen to pay them, and then they route to the one that provides the most price improvement out of the three–while still not providing as much as it would if the broker didn&rsquo;t take rebates or had less well-informed clients–is that &lsquo;best execution&rsquo;, or is it an illusion of best execution?</p>
+<div style="text-align: center;">
+    
+<script async type="application/javascript" src="https://unpkg.com/mermaid@9.1.7/dist/mermaid.min.js">
+    var config = {
+      startOnLoad:true,
+      theme:'dark',
+      align:'center'
+    };
+    mermaid.initialize(config);
+</script>
+  
+<div class="mermaid">
+    
+%%{init: {'theme':'dark'}}%%
+flowchart LR;
+    C[Trader] -- order --> A[Broker]
+    A[Broker] -- adverse selection --> B[Wholesaler]
+    B[Wholesaler] -- rebate --> A[Broker]
+    B[Wholesaler] -- NBBO execution + x% price improvement --> C[Trader]
+    A[Broker] -- illusion of best execution --> C[Trader]
+
+</div>
+
+</div>
+<h2 id="the-bedrock">the bedrock</h2>
+<p>Admittedly, this article has been quite cynical, and the &rsquo;true&rsquo; model may be more fairly referred to as the &lsquo;cynical&rsquo; model. There have definitely come good things out of the digitalization of markets, internalization is partly one of those good things. It has almost definitely made retail trading cheaper, but it is in no way transparent or optimal in it&rsquo;s current form. Rules are vague and rarely enforced, the NBBO has a million flaws, mutual funds and other institutions are charged more for their trading than they would be otherwise. Brokerages are inherently encouraged to gameify trading and offer looser requirements than they otherwise would.</p>
+<p>Just a couple of weeks ago news was received that the SEC won&rsquo;t ban PFOF, while other actions that might alter the practice are still on the table. I personally don&rsquo;t think PFOF in anarcho-capitalist form is an inherently deceitful or bad practice, but the regulatory landscape has created ineffeciencies which can enable PFOF to be harmful for markets at large, not just retail investors. Regulation–especially financial–rarely keeps up with technological developments, and high frequency trading is one of those areas where you can truly see regulators struggle.</p>
+<hr>
+<p>nbbo odd lots</p>
+<p>Imagine that on the NYSE the bid is 10.00 while Citadel Securities is bidding 10.001 in their own venue, the SIP will still calculate that the NBB is 10.00 and can be found at the NYSE. And so even if citadel is providing best price, a broker can route the order perfectly legally to the NYSE. to make sure they actually get the order routed to them, citadel makes a deal with robinhood to get orderflow, and in return robinhood gets a check and the client gets &lsquo;price improvement&rsquo; aka a price closer to the real best price than it would&rsquo;ve got on an exchange, but slightly less to compensate for the fact that citadel is paying robinhood hundreds of millions of dollars.</p>
+<p><a href="https://focus.world-exchanges.org/articles/nasdaq-market-data">Over the last decade, the U.S. SIP has improved how fast it compiles all the data from a 6 millisecond (ms) to a 0.015ms delay. Those improvements are undetectable to “human” traders, but are still not fast enough for some automated traders.</a></p>
+<p>ofcourse retail will get price improvement when &lsquo;best execution&rsquo; against NBBO doesn&rsquo;t take
+into account share size, if NBBO is 50 shares bid and 50 shares offered then price improvement is going to be much cheaper to provide for retail than insitutions.</p>
+<p>Yeah, I mean, thanks. Thank you, Sean. It&rsquo;s actually a great question. I should have actually, in my little diatribe before, I should have actually mentioned this. I mean, payment for order flow was an expensive diverter, a pickup in our [PPV] line in our GAAP financial statements. So it&rsquo;s an expense stuff, it&rsquo;s not revenue diverter, obviously, we&rsquo;re paying it, right? Every single retail broker, wealth manager, whatever you want to call them globally, that sends us 605 eligible order flow, that is based on the amount of price improvement we are providing to that broker. Let me repeat that, every single broker we get routed to us based on price improvement, not payment order flow. There is a small subset of retail brokers, and we all know who they are, all public. It&rsquo;s all transparent, it&rsquo;s all out there yes, it&rsquo;s a conflict, but yes, it&rsquo;s fully disclosed, that is part of our arrangement with them, asked us to pay them a rebate. And that&rsquo;s fine, it&rsquo;s been going on for 30 years, this is not some new nefarious, market structure, niche to the market and somehow some people are uncovered, right?</p>
+<p>So, the ecosystem works. So, if payment order flow rebate were to be banned, which it will not be because that is nonsensical. It is fostered in initiation in this country. So, I cannot believe in a rational world that that would happen but putting that aside, it would have no net effect on Virtu at all. They might ask, why am I doing this and why am I so strident about it? Because one my customers like it, and two, I think it&rsquo;s just the right thing to do. I think this, the ecosystem, I&rsquo;m very, very proud of it. So at the end of the day, there are brokers, including a very big one in Boston, that everybody knows that doesn&rsquo;t take payment for order flow for cash equities, and that&rsquo;s fine and they route 99% of their marketable orders to wholesalers. Why? Not because they&rsquo;re getting any payment order flow, they don&rsquo;t take a nickel of it in cash equities.</p>
+<p>They route because we provide superior execution quality and a guaranteed execution and so they&rsquo;ve effectively outsourced that service to Virtu and to the six or seven other wholesalers that they deal with. And these are really, really smart and really, really successful people with access to every piece of technology understanding of the market that they possibly could. So in what universe is that wrong? And in what universe is that not good for the retail investor. And again, that&rsquo;s why I will continue to be front-footed on this, positive and strident and very transparent, because I know that the wholesaling ecosystem is, has provided an enormous amount of value, and it has enabled an enormous amount of innovation.</p>
+<p>And people talk about lack of access to this and that and equality and whatnot, we should all be very proud that in this marketplace, anybody that has an iPhone or some type of device can download an application from, I don&rsquo;t care what broker it is and for no dollars, zero dollar commission can buy not only just the share, but $5 worth of some stock that they may have interested in. That&rsquo;s empowering. That&rsquo;s democratization of a marketplace. And so for an order route, that&rsquo;s what competition and regulation has brought to this country. We should all be very, very, very proud of that. <a href="https://seekingalpha.com/article/4445167-virtu-financial-inc-virt-ceo-douglas-cifu-on-q2-2021-results-earnings-call-transcript?source=content_type%3Areact%7Csection%3ATranscripts%7Csection_asset%3ATranscripts%7Cfirst_level_url%3Asymbol%7Cbutton%3ATitle%7Clock_status%3ANo%7Cline%3A9">https://seekingalpha.com/article/4445167-virtu-financial-inc-virt-ceo-douglas-cifu-on-q2-2021-results-earnings-call-transcript?source=content_type%3Areact%7Csection%3ATranscripts%7Csection_asset%3ATranscripts%7Cfirst_level_url%3Asymbol%7Cbutton%3ATitle%7Clock_status%3ANo%7Cline%3A9</a></p>
+<p>insitutional pfof, circular routing
+Coda would get a customer order to buy stock.
+Coda would send that order to one of its partner firms (the “Net Trading Firms”) to execute.
+They would say “hang on a minute.”
+They would send their order to buy the same stock back to the Coda dark pool.
+Coda would send that order to some other dark pools to try to buy stock at the real price (“to one or more external markets to seek non-displayed liquidity”).
+Coda would come back to the partner firm and say “good news, you bought the stock at $10.01.”
+The partner firm would say “great, also, we sold the stock to your customer at $10.048.” 1
+Coda would go back to the customer and say “good news, your order got filled in our dark pool at $10.048, which is $0.002 better than the national best offer of $10.05 on the lit stock exchange.”
+The partner firm would say to Coda “pleasure doing business with you, here’s $0.027.”
+<a href="https://www.sec.gov/litigation/admin/2021/33-10985.pdf">https://www.sec.gov/litigation/admin/2021/33-10985.pdf</a></p>
+<p>On the one hand, the SEC seems to have concluded that Citadel&rsquo;s SIP latency arbitrage was infrequent, not particularly economically significant, and ended seven years ago. On the other hand: The SEC concluded that Citadel did SIP latency arbitrage! this was super
+tiny volume. fined for the disclosure, not the strat.
+<a href="https://www.sec.gov/news/press-release/2017-11">https://www.sec.gov/news/press-release/2017-11</a></p>
+<p>an institutional order usually precedes even more similar orders, so there&rsquo;s adverse
+selection in marking making for institutional orders</p>
+<p>according to <a href="https://www.bloomberg.com/news/articles/2022-09-22/sec-poised-to-let-wall-street-keep-payment-for-order-flow-deals">bloomberg</a> the SEC will not ban
+PFOF, although they might still enact policy that makes the practice less profitable.
+They might for example push more volume onto exchanges by making the exchanges decrease
+access fees. The SEC may also seek to clarify requirements for brokerages to provide &ldquo;best execution&rdquo; for stock orders, according to the people.</p>
+<p>PFOF might contract that you will still only send your orders there if its best execution
+but if you get PFOF they get less price improvement. so if NBB is 1$ and Citadel Securities
+is bidding 1.0017 then you get 0.0017$ price improvement, if you choose to take PFOF
+then you still get price improvement [since you are forced to route for best execution]
+but you get <em>less</em> price improvement.</p>
+<p>[In the end, we find that our price differences are due to different brokers getting different execution prices for the exact same trade at the same venue. Their trades cost on average 0.07% at TD Ameritrade, 0.20% at E*Trade, 0.23% at Fidelity, 0.31% at Robinhood, 0.44% in their Interactive Brokers Pro account (which charges commissions and does not take PFOF), and 0.46% in their Interactive Brokers Lite account (which has no commissions and takes PFOF). And these differences were not correlated to how much payment for order flow those brokerages get. The no-PFOF accounts did not systematically get better execution than the ones that took PFOF.</p>
+<p>Here are two possible explanations, which are a little bit related to each other. One is that retail brokerages are seeking “best execution” for their customers in a sort of aggregate way. 3  They route their orders to wholesalers not by running an individual auction for each trade, but by examining the wholesalers’ overall performance over days or months and sending more orders to wholesalers who provide better total price improvement. But the brokers vary in what they are looking for. For instance, one broker might prefer a wholesaler who provides a lot of price improvement on small orders and less price improvement on large orders (because its customers mostly do small trades); another might prefer one who does better on large orders (because its customers mostly do big trades).</p>
+<p>This paper looks at $100 trades, which are pretty small. You could imagine a story that goes like: “TD Ameritrade is the best brokerage for executing small trades, while other brokerages might be better for large trades. But this paper only ranks brokerages on execution of small trades, so it finds that TD Ameritrade is the best.”</p>
+<p><a href="https://www.sec.gov/spotlight/emsac/memo-maker-taker-fees-on-equities-exchanges.pdf">If the brokerage just sends all of its customers’ orders to the stock exchange, they will buy at $10.02 and sell at $9.98, which is not so great. Also the brokerage will pay a little fee — customarily $0.003 per share — to the exchange for executing the order.</a></p>
+<p>The other explanation has to do with what I said at the beginning, about adverse selection and retail orders being more attractive than institutional ones. That is not always and uniformly true. Some retail brokerages have customers who are more institutional-like: They are better informed or trade larger sizes. A wholesaler who trades with those customers will do worse than a wholesaler who trades with smaller and less-informed retail customers. So it will offer them less price improvement. If a brokerage’s orders are riskier and less profitable for wholesalers, those orders will get less price improvement. The fact that the professors’ Interactive Brokers Pro account performed relatively poorly might have something to do with who Interactive Brokers Pro is designed for: pros. If you are a market maker trading with pros, you will charge a higher spread than if you are trading with amateurs.](<a href="https://www.bloomberg.com/opinion/articles/2022-08-25/some-free-brokers-are-cheaper-than-others">https://www.bloomberg.com/opinion/articles/2022-08-25/some-free-brokers-are-cheaper-than-others</a>)</p>
+<p>/// read virtu 10k</p>
+<p>Since retail orders have a lower chance of adverse selection for the market maker, they are more profitable for the market maker. These savings are passed on in part to the broker as PFOF, but also to the retail customer as price improvement: market makers often fill retail orders at a better price than the best price available on public exchanges. The additional revenue for brokers allows them to charge minimal or no commissions</p>
+<p>&ldquo;not a single retail broker, that takes pfof, will route based on the amount of payment. they are routing to the wholesalers solely based on the best price that we are competing for.&rdquo; -<a href="https://www.youtube.com/watch?v=KoN_555cCJQ">doug cifu</a> note: they don&rsquo;t route based on the <em>amount</em> but he leaves a hole open here ofcourse that they might route of the presence of it.</p>
+<p>20% of market volume is attributed by &lsquo;retail&rsquo;, up from 10% in 2019 (as of feb 2021)</p>
+<p>Citadel Securities says it provided price improvement worth $1.5 billion on retail equity orders in 2020. Virtu CEO Doug Cifu told analysts in November that the company had provided more than $900 million of price improvement to retail traders that year.</p>
+<p>retail pfof is uniform across all designated liquidity providers, thus robinhood routes to who has the best execution</p>
+<p>why can citadel give better execution than the nyse? because the nyse is limited by regulation. exchanges, by law, have a minimum 1c wide market</p>
+<p>according to Rep. Brad Sherman, <em>everyone</em> he has talked to in the industry admits that when you are being paid for orderflow you get a worse execution.</p>
+<p>when x retail customer wants to buy 1 share of AAPL for $100, this is called the &lsquo;ask&rsquo; price, this is what x is asking for. if the wholesaler, i.e Citadel that pays for the order, finds the share at $98</p>
+<p>pfof will not be done away with because it would incentivize marketmakers and brokers to merge, and the situation would become less transparent.</p>
+<p>wholesalers provide guaranteed execution even in stocks with little to no liquidity.</p>
+<p>bonafide mm&rsquo;s get to naked short under x circumstances</p>
+<p>both citadel &amp; virtu CEO have said flat out that routing is solely based on who will provide the best execution for the order and not who pays the most in pfof. this is obviously interesting because they are paying for something, and so what sticks out most is the definition of &lsquo;best execution&rsquo;. if citadel pays for robinhood order flow, and an order happens to be best executed by citadel considering nbbo and whatever variables, then it is routed there and THEN the price paid in pfof is considered and they can execute it worse than optimal because of pfof, even though its still technically the best execution on the market. THIS MIGHT BE IT? also, nbbo is based on lit exchanges and ecn&rsquo;s and there&rsquo;s tons of volume executed in darkpools or internalized by wholesalers so that even though the order is executed at &lsquo;best price&rsquo; it might not actually be the &lsquo;best price&rsquo;. this way citadel securities for example can pay for orderflow, get a sell order, short the stock in darkpool x that they have pinged/whatever at higher than nbbo and buy the robinhood order at nbbo. latency arb also comes into play here.</p>
+<p>virtu ceo: we are obligated to fill <em>every</em> order that hits our environment, we don&rsquo;t route to exchanges</p>
+<p>since odd lots often aren&rsquo;t reported on most public data feeds, if 5 shares are offered @ 60 and 5 bid @ 59 and 100 offered @ 61 and 100 bid @ 58 then the NBBO will be 58-61. this means that Citadel can execute your robinhood buy order for 5 shares @ NBBO and still pocket a nice difference. either pfof is a genuine bribe or it&rsquo;s simply a &lsquo;donation&rsquo; of sorts to incentivize odd lot trading?</p>
+<p>In the United States, accepting PFOF is allowed only if no other exchange is quoting a better price on the National Market System. The broker must disclose to the client that it accepts PFOF. Transactions must be executed at the best execution, which could mean the best price available or the speediest execution available.</p>
+<p>A 2014 investigation by the United States Senate Homeland Security Permanent Subcommittee on Investigations, led by Carl Levin, conducted hearings focused on the conflicts of interest inherent in PFOF. At the hearings, an executive for TD Ameritrade said that it routes orders to wherever it can get the highest payment.</p>
+<p>Mr. Quirk, responding to questions from Mr. Levin, said that in the first quarter of 2014, his firm routed millions of clients&rsquo; limit orders—those designed to trade only at a specific price—to just two trading venues, one run by BATS Global Markets and another run by Citigroup Inc.&rsquo;s electronic-trading unit Lava Trading. The two trading venues, BATS&rsquo;s EDGX exchange and LavaFlow, provide among the highest payments in the market, about 35 cents per 100 shares traded, experts say. Mr. Quirk told the Senate panel that TD Ameritrade earned roughly $80 million in such payments in fiscal 2013.</p>
+<p>University of Notre Dame finance professor Robert Battalio, who testified before the subcommittee, earlier this year co-published a paper arguing that retail brokers such as TD Ameritrade often route client orders in ways that boost payments they receive, potentially harming clients. Mr. Battalio, referring to his study, said such routing decisions typically send client orders to exchanges that have long waiting times relative to other exchanges, because other traders are also vying to get the payments. If the market moves away from the price the client hoped to trade at, the client might not trade at all, he said. An order sent to an exchange with a shorter waiting time, meanwhile, would have been more likely to get executed.</p>
+<p>Best execution crucially relies on identifying the &ldquo;best&rdquo; liquidity sources, which may involve the examination of several related factors, such as:
+Price - is the price offered from the source the best at the moment from all available liquidity sources?
+Fees - is it cheap to take liquidity from the source? Each venue charges fees (or rebates) for participating in the venue activities.
+Information Leakage - will the trade information be leaked to the market, as to adversely impact the cost of executing the remaining positions. This is the major concern for executing a large order (often from institutional clients).
+Adverse Selection - does the source or venue have the established pattern (or high likelihood) of offering abundant &ldquo;aggressive&rdquo; liquidity before the market will slide in one direction? e.g., aggressive sell orders to hit the execution buy orders before the market starts to plunge, or aggressive buy orders to hit the execution sell orders before the market starts to roar. This is a pattern of being hit by potentially &ldquo;informed&rdquo; traders utilizing these venues or sources. Such liquidities are often labelled as &ldquo;toxic.&rdquo;</p>
+<p>maybe there is nothing shady here. simply mm wants retail order flow because of adverse selection?</p>
+<p>In 2009, off-exchange trading accounted for a quarter of U.S. equity volume. Last year, during the meme stock events, that share swelled to a peak of 47 percent. What&rsquo;s more, 90-plus percent of retail marketable orders are routed to a small, concentrated group of wholesalers that pay for this retail market order flow.</p>
+<p>sub-penny trading, including at a tenth of a penny, accounts for 37 percent of share volume executed off-exchange.</p>
+<p>odd lots increased from around 15 percent of trades in January 2014 to more than 55 percent of trades in March 2022.</p>
+<p>A broker-dealer’s duty of best execution to its customers predates the federal securities laws and is derived from an implied representation that a broker-dealer makes to its customers. The duty is established from “common law agency obligations of undivided loyalty and reasonable care that an agent owes to [its] principal.” This obligation requires that a “broker-dealer seek to obtain for its customer orders the most favorable terms reasonably available under the circumstances.”</p>
+<p>In or around May 2016, Robinhood began negotiations with a number of principal
+trading firms about potentially routing Robinhood customer orders to those entities. In the
+course of those negotiations, certain of the principal trading firms told Robinhood that there was
+a trade-off between payment for order flow on the one hand and price improvement on the other:
+If Robinhood negotiated for higher payment for order flow revenue, according to the principal
+trading firms, there would be less money available for the principal trading firms to provide price
+improvement to Robinhood’s customers.</p>
+<p>Robinhood negotiated a payment for order flow rate that was substantially higher
+than the rate the principal trading firms paid to other retail broker-dealers—which resulted in
+approximately a 20/80 split of the value between price improvement and payment for order flow.
+Robinhood explicitly offered to accept less price improvement for its customers than what the
+principal trading firms were offering, in exchange for receiving a higher rate of payment for
+order flow for itself.</p>
+<p>In September 2016, Robinhood began routing customer orders directly and solely
+to principal trading firms. Around the same time, Robinhood formed a “Best Execution
+Committee” to monitor the speed and the prices at which the principal trading firms were
+executing Robinhood customer orders. The Committee met at least once per month and included
+Robinhood’s General Counsel. From October 2016 through at least June 2019, the Committee
+observed that Robinhood was not obtaining much price improvement on its customer orders in
+equity securities, particularly on orders of 100 shares or more.</p>
+<p>Meanwhile, in 2017, Robinhood developed a proprietary routing algorithm, known
+as a smart order router, designed to make the principal trading firms with which Robinhood had
+payment for order flow arrangements compete for order flow by routing customer orders to the
+principal trading firm that had provided the most price improvement for that stock over the prior 30
+days. However, the smart order router did not address Robinhood’s high payment for order flow
+rates or any potential execution prices that may be available at venues that did not agree to pay
+those rates. Even with its smart order router, Robinhood customer orders received poor execution
+quality.</p>
+<p>In mid-2017, when one of the principal trading firms to which Robinhood routed
+order flow told Robinhood it would no longer agree to pay Robinhood’s unusually high payment
+for order flow rates, but would pay a lower payment for order flow rate, Robinhood stopped
+routing customer orders to that principal trading firm.</p>
+<p>By March 2019, Robinhood had conducted a more extensive internal analysis,
+which showed that its execution quality and price improvement metrics were substantially worse
+than other retail broker-dealers in many respects, including the percentage of orders that received
+price improvement and the amount of price improvement, measured on a per order, per share, and
+per dollar traded basis. Senior Robinhood personnel were aware of this analysis.</p>
+<p>Robinhood has deliberately went out of their way to hide the fact that the majority of their revenue comes from pfof. they also instructed customer service to avoid talking about pfof</p>
+<p>most PFOF is in mid-small caps</p>
+<p>Consider the case where two exchanges display limit
+orders at the National Best Bid (NBB). If sufficient selling supply arrives (perhaps because the seller is
+informed), the sell order walks down the limit order books at both exchanges and liquidity at the existing
+NBB is exhausted. In this situation, limit orders on both exchanges purchase shares at the bid price.
+However, if the price rises before liquidity is exhausted at the NBB, limit orders on the low-fee venue fill
+first and at least some limit orders on the high-fee venue miss a favorable trading opportunity. This
+suggests that an exchange’s relative fee structure can influence the conditions in which its standing limit
+orders execute.</p>
+<p>In nearly every comparison we make, the low-fee venue wins more
+horseraces (i.e., fills when the high-fee venue does not or fills more rapidly) and enjoys higher average
+realized spreads (i.e., trades in more favorable conditions) than the high-fee venue.</p>
+<p>the limit order resting on the high-fee venue fills
+less frequently and faces greater adverse selection risk than the limit order on the low-fee venue.a</p>
+<p>reg nms {</p>
+<pre><code>The Order Protection Rule: Aims to ensure that investors receive the best price when their order is executed by removing the ability to have orders traded through—executed at a worse price. This rule requires trading centers to establish, maintain, and enforce written policies and procedures that are reasonably designed to prevent the execution of trades at prices that are inferior to protected quotations displayed by other trading centers. It also created the National Best Bid and Offer (NBBO) requirement that requires brokers to route their orders to the venues offering the best-displayed price.
+
+The Access Rule: Seeks to improve access to quotations from trading centers in the NMS by requiring greater linking and lower access fees. This rule includes a mandate that each national securities exchange and national securities association adopts, maintains, and enforces written rules prohibiting their members from displaying cross automated quotations or quotations that lock.
+
+The Sub-Penny Rule: Sets the minimum quotation increment of all stocks over $1.00 per share to at least $0.01. Stocks under $1.00 can see quotation increments of $0.0001.
+
+Market Data Rules: Allocate revenue to self-regulatory organizations that promote and improve market data access.
+</code></pre>
+<p>}</p>
+<hr>
+<ol>
+<li>SEC 606 Disclosures</li>
+<li>SEC (<a href="https://www.sec.gov/litigation/admin/2020/33-10906.pdf">https://www.sec.gov/litigation/admin/2020/33-10906.pdf</a>)</li>
+</ol>
+
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer></footer>
+
+    
+</body>
+
+</html>
