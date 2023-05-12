@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: https://xorjnz.github.io/sitemap.xml
+Sitemap: https://apathetic.bid/sitemap.xml
